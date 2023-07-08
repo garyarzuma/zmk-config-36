@@ -87,7 +87,7 @@
 &none   /**/  &kp Y           &kp C       &kp L       &kp M           &kp K   /**/  &kp Z    &kp F           &kp U       &kp COMMA   &kp SQT        /**/  &none
 &none   /**/  &hm LGUI I      &hm LALT S  &hm LCTRL R &hm LSHIFT T    &kp G   /**/  &kp P    &hm RSHIFT N    &hm RCTRL E &hm RALT A  &hm RGUI O     /**/  &none
 &none   /**/  &kp Q           &kp V       &kp W       &kp D           &kp J   /**/  &kp B    &kp H           &kp FSLH    &kp DOT     &kp X          /**/  &none
-              &td1  &lt NUM BSPC &mt LGUI SPACE  /**/  &mt RGUI RET &lt SYM DEL &mt RALT GRAVE
+              &td1            &lt NUM SPACE   &kp LSHIFT /**/  &mt RGUI RET &lt SYM BKSP &mt RALT GRAVE
 
       >;
     };
@@ -120,7 +120,7 @@
 &none   /**/  &kp F1          &kp F2          &kp F3          &kp F4     &kp F5            /**/  &kp F6          &kp F7       &kp F8       &kp F9   &kp F10  /**/  &none
 &none   /**/  &none           &none           &kp C_PREV      &kp C_NEXT &kp C_PLAY_PAUSE  /**/  &kp C_MUTE      &kp C_VOL_DN &kp C_VOL_UP &none    &kp F11  /**/  &none
 &none   /**/  &bt BT_SEL 0    &bt BT_SEL 1    &bt BT_SEL 2    &bt BT_NXT &bt BT_CLR        /**/  &none           &none        &none        &none    &kp F12  /**/  &none
-              &reset &trans &bootloader  /**/  &bootloader &trans &reset
+              &sys_reset &trans &bootloader  /**/  &bootloader &trans &sys_reset
 
       >;
     };
