@@ -86,7 +86,7 @@
 
 &none   /**/  &kp Y           &kp C       &kp L        &kp M          &kp K   /**/  &kp Z    &kp F           &kp U        &kp SQT     &kp BKSP    /**/  &none
 &none   /**/  &hm LGUI I      &hm LALT S  &hm LSHIFT R &hm LCTRL T    &kp G   /**/  &kp P    &hm RCTRL N     &hm RSHIFT E &hm RALT A  &hm RGUI O   /**/  &none
-&none   /**/  &kp Q           &kp V       &kp W        &kp D          &kp J   /**/  &kp B    &kp H           &kp FSLH     &kp DOT     &kp X        /**/  &none
+&none   /**/  &kp Q           &kp V       &kp W        &kp D          &kp J   /**/  &kp B    &kp H           &kp DOT      &kp FSLH    &kp X        /**/  &none
               &kp COMMA       &lt NUM SPACE   &kp TAB       /**/      &kp ESC        &lt SYM RET     &kp COLON      
 
       >;
