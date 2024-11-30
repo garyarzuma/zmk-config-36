@@ -1,4 +1,4 @@
-/*
+*
  * Copyright (c) 2020 The ZMK Contributors
  *
  * SPDX-License-Identifier: MIT
@@ -61,19 +61,6 @@
       key-positions = <17 18>;
       bindings = <&caps_word>;
     };
-
-    combo_vimwq {
-      timeout-ms = <50>;
-      key-positions = <1 2>;
-      bindings = <&vim_quit>;
-    };
-
-    combo_comma {
-      timeout-ms = <50>;
-      key-positions = <36>;
-      bindings = <&vim_comma>;
-    };
-
     combo_game {
       timeout-ms = <50>;
       key-positions = <1 5 6 10>;
@@ -82,21 +69,6 @@
   };
 
   macros {
-        vim_quit: vim_quit {
-            label = "ZM_vim_quit";
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings
-                = <&macro_tap &kp ESC &kp COLON &kp W &kp Q>;
-        };
-        vim_comma: vim_comma  {
-            label = "ZM_comma";
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings
-                = <&macro_tap &kp COMMA &kp SPACE>;
-        };
-
     };
 
   keymap {
