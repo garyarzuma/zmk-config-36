@@ -56,11 +56,6 @@
 
   combos {
     compatible = "zmk,combos";
-    combo_cword {
-      timeout-ms = <50>;
-      key-positions = <17 18>;
-      bindings = <&caps_word>;
-    };
     combo_game {
       timeout-ms = <50>;
       key-positions = <1 5 6 10>;
@@ -88,7 +83,7 @@
     num_layer {
       bindings = <
 
-&none   /**/ &none      &none       &none       &none      &none   /**/  &none         &kp LA(LEFT)  &kp UP        &kp LA(RIGHT) &kp HOME    /**/  &none
+&none   /**/ &none      &none       &none       &none      &none   /**/  &kp CAPSLOCK  &kp LA(LEFT)  &kp UP        &kp LA(RIGHT) &kp HOME    /**/  &none
 &none   /**/ &kp LGUI   &kp LALT    &kp LSHIFT  &kp LCTRL  &none   /**/  &kp PG_UP     &kp LEFT      &kp DOWN      &kp RIGHT     &kp END      /**/  &none
 &none   /**/ &none      &none       &none       &none      &none   /**/  &kp PG_DN     &none         &none         &none         &none          /**/  &none
               &trans  &trans  &trans  /**/  &trans &trans  &trans
