@@ -15,6 +15,7 @@
 #define SYM     2
 #define FUNC    3
 #define GAME    4
+#define FACTORIO 5
 
 // MACROS
 #define SUPER LC(LSHIFT)
@@ -83,7 +84,7 @@
     num_layer {
       bindings = <
 
-&none   /**/ &none      &none       &none       &none      &none   /**/  &kp CAPSLOCK  &kp LA(LEFT)  &kp UP        &kp LA(RIGHT) &kp HOME    /**/  &none
+&none   /**/ &to FACTORIO &none       &none       &none      &none   /**/  &kp CAPSLOCK  &kp LA(LEFT)  &kp UP        &kp LA(RIGHT) &kp HOME    /**/  &none
 &none   /**/ &kp LGUI   &kp LALT    &kp LSHIFT  &kp LCTRL  &none   /**/  &kp PG_UP     &kp LEFT      &kp DOWN      &kp RIGHT     &kp END      /**/  &none
 &none   /**/ &none      &none       &none       &none      &none   /**/  &kp PG_DN     &none         &none         &none         &none          /**/  &none
               &trans  &trans  &trans  /**/  &trans &trans  &trans
@@ -119,6 +120,17 @@
 &none   /**/  &kp I      &kp S &kp R &kp T     &kp G   /**/  &kp P    &hm RCTRL N     &hm RSHIFT E &hm RALT A  &hm RGUI O   /**/  &none
 &none   /**/  &hm LGUI Q           &hm LALT V       &hm LSHIFT W        &hm LCTRL D          &kp J   /**/  &kp B    &kp H           &kp DOT      &kp FSLH    &kp X        /**/  &none
               &kp COMMA       &kp SPACE   &kp TAB       /**/      &kp ESC        &lt SYM RET     &td0
+
+      >;
+    };
+
+    factorio_layer {
+      bindings = <
+
+&none   /**/  &kp Q      &kp W      &kp E      &kp R      &kp T   /**/  &kp N6   &kp N7    &kp N8    &kp N9   &kp N0  /**/  &none
+&none   /**/  &kp A      &kp S      &kp D      &kp F      &kp G   /**/  &kp Z    &kp X     &kp C     &kp V    &kp B   /**/  &none
+&none   /**/  &kp N1     &kp N2     &kp N3     &kp N4     &kp N5  /**/  &kp M    &kp H     &kp LALT  &kp P    &kp O   /**/  &none
+              &kp LCTRL  &kp SPACE  &kp LSHIFT          /**/  &kp ESC  &kp RET   &to DEFAULT
 
       >;
     };
